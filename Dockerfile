@@ -8,5 +8,5 @@ RUN apk update \
 
 
 VOLUME /mcserver
-RUN cd mcserver
+WORKDIR /mcserver
 EXPOSE 25252
